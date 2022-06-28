@@ -18,5 +18,6 @@ from django.urls import path
 from django.conf.urls import include
 
 urlpatterns = [
+    path('', include('foodapp_api.urls')),
     path('admin/', admin.site.urls),
 ]
